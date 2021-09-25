@@ -1,0 +1,18 @@
+.header-sec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #bfcbcc;
+}
+.brand h1{
+    color: rgb(197, 75, 75);
+}
+.navbar a{
+    text-decoration: none;
+    line-height: 30px;
+    margin-left: 30px;
+    color: black;
+}
+.navbar a:hover{
+    color: brown;
+}
