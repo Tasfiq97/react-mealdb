@@ -15,10 +15,10 @@
     grid-template-columns: 3fr 1fr;
 }
 .food-details{
-    border-right: 2px solid brown;
+    border-right: 2px solid rgb(162, 37, 37);
 }
 .food-details h1{
     text-align: center;
     font-weight: 800;
-    color:rgb(207, 83, 83);
+    color:rgb(227, 93, 93);
 }

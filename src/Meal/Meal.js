@@ -4,8 +4,8 @@ import {faUtensilSpoon } from '@fortawesome/free-solid-svg-icons'
 
 import "./Meal.css"
 
-const Meal = (props) => {
-    const {strMeal,strMealThumb,strArea,strCategory,strInstructions}=props.food
+const Meal = ({food,selectBtn}) => {
+    const {strMeal,strMealThumb,strArea,strCategory,strInstructions}=food;
     
     return (
         <div className="food-cards">
@@ -16,7 +16,7 @@ const Meal = (props) => {
            <p>area Found: {strArea}</p> 
            <p>Category: {strCategory}</p>
            <p>{strInstructions.slice(0,200)}</p>
-           <button className="btn-select" onClick={()=>props.selectBtn(props.food)}>
+           <button className="btn-select" onClick={()=>selectBtn(food)}>
              <FontAwesomeIcon icon={faUtensilSpoon}/>  
                 Select Meal</button>
            </div>
