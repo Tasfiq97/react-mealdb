@@ -6,6 +6,7 @@ import "./Meal.css"
 
 const Meal = (props) => {
     const {strMeal,strMealThumb,strArea,strCategory,strInstructions}=props.food
+    
     return (
         <div className="food-cards">
             <div className="card-item">
